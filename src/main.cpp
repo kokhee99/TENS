@@ -11,7 +11,7 @@
 
 // Pin definitions (Seeed XIAO ESP32S3)
 #define POT_PIN A0              // Analog input for frequency control
-#define PHASE_A_PIN 8           // H-bridge Phase A signal
+#define PHASE_A_PIN 10           // H-bridge Phase A signal
 #define PHASE_B_PIN 9           // H-bridge Phase B signal (complementary)
 
 // Frequency constants (Hz)
@@ -132,7 +132,7 @@ void loop() {
  * 
  * H-BRIDGE DRIVER (e.g., L298N or DRV8833):
  * 
- *   PHASE_A_PIN (GPIO 8) -----> H-Bridge Input A (IN1)
+ *   PHASE_A_PIN (GPIO 10) -----> H-Bridge Input A (IN1)
  *   PHASE_B_PIN (GPIO 9) -----> H-Bridge Input B (IN2)
  *   
  *   H-Bridge Output:
